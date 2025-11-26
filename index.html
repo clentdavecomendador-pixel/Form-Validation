@@ -10,12 +10,24 @@
 <body>
     <main>
         <section>
-            <h1>Form Validation</h1>
+            <h1>Cool Site</h1>
             <button id="tilmeld">Tilmeld</button>
         </section>  
     </main>
-    <section id="modal">
-        <span id="close">&times;</span>
+    <section id="modal" class="hidden overlay">
+        <nav>
+            <span id="close">&times;</span>
+        </nav>
+
+        <form action="">
+            <h2>Tilmeld dig</h2>
+            <label for="name">Formavn</label>
+            <input type="text" id="name" placeholder="Name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email">
+            <button id="FormSubmit" type="submit">Submit</button>
+        </form>
     </section>
 </body>
 </html>
